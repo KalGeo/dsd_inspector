@@ -1,13 +1,15 @@
 # dsd_inspector
 
-A DSD file inspector and a directory tree dsf scanner and analyzer
+A DSD (Direct Stream Digital) file inspector and a directory tree dsf scanner and analyzer
 
 This repository contains:
 
-- `dsd_inspector` — a command-line analyzer that generates spectrograms, spectrum overlays and a text report for a single audio file.
+- `dsd_inspector` — a command-line analyzer that generates spectrograms, spectrum overlays and a text report for a single dsd file.
 - `dsd_tree_to_html.sh` — a Bash script that **recursively scans a music library**, runs `dsd_inspector` on **one file per folder** (by default the first `.dsf`), and writes **all outputs to a single central directory**. It also builds a **single HTML summary** with thumbnails and links.
 
-> ✅ Your music folders are **never modified**. Everything is written inside one chosen output root (default: `./dsd_inspector_out/`).
+<p align="center">
+  <img src="README.png" alt="dsd_tree_to_html.sh output" >
+</p>
 
 ---
 
