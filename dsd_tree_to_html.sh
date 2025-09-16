@@ -4,9 +4,9 @@ set -euo pipefail
 # Usage:
 #   BIN=./dsd_inspector ./dsd_tree_to_html_central.sh "<ROOT>" [OUTROOT]
 # Example:
-#   BIN=./dsd_inspector ./dsd_tree_to_html_central.sh "/media/manolo/G/5.Music/SACD-R ISO/"
+#   BIN=./dsd_inspector ./dsd_tree_to_html_central.sh "/media/with/dsf/files/"
 
-ROOT="${1:-/media/manolo/G/5.Music/SACD-R ISO/}"
+ROOT="${1:-/media/with/dsf/files/}"
 OUTROOT="${2:-./dsd_inspector_out}"   # single central output folder (created if missing)
 BIN="${BIN:-./dsd_inspector}"         # your compiled binary
 FORCE="${FORCE:-0}"                   # set FORCE=1 to re-run even if images exist
