@@ -41,7 +41,7 @@ BIN=./dsd_inspector ./dsd_tree_to_html.sh "<ROOT>" [OUTROOT]
 - **`<ROOT>`** – root directory to scan (recursively).
 - **`[OUTROOT]`** – (optional) where all results will be stored. Default: `./dsd_inspector_out`.
 
-### Examples (your library)
+### Examples
 
 ```bash
 BIN=./dsd_inspector ./dsd_tree_to_html.sh "/media/dsf_files/"
