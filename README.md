@@ -37,18 +37,17 @@ make -j
 ```bash
 BIN=./dsd_inspector ./dsd_tree_to_html.sh "<ROOT>" [OUTROOT]
 ```
- example
-```bash
-BIN=folder_of_dsd_inspector/./dsd_inspector ./dsd_tree_to_html.sh "/folder/with/dsf/files/"
-```
 
 - **`<ROOT>`** – root directory to scan (recursively).
 - **`[OUTROOT]`** – (optional) where all results will be stored. Default: `./dsd_inspector_out`.
 
-### Example (your library)
+### Examples (your library)
 
 ```bash
-BIN=./dsd_inspector ./dsd_tree_to_html.sh "/media/manolo/G/5.Music/SACD-R ISO/"
+BIN=./dsd_inspector ./dsd_tree_to_html.sh "/media/dsf_files/"
+```
+```bash
+BIN=folder_of_dsd_inspector/./dsd_inspector ./dsd_tree_to_html.sh "/media/dsf_files/"
 ```
 
 Open the generated summary page:
@@ -101,17 +100,17 @@ dsd_inspector_out/
 
 - **`FORCE=1`** — re-run analysis even if output images already exist (useful after code tweaks)
   ```bash
-  FORCE=1 BIN=./dsd_inspector ./dsd_tree_to_html.sh "/media/.../SACD-R ISO/"
+  FORCE=1 BIN=./dsd_inspector ./dsd_tree_to_html.sh "/media/.../dsf_files/"
   ```
 
 - **`INCLUDE_DFF=1`** — also consider `.dff` files (still one file per folder)
   ```bash
-  INCLUDE_DFF=1 BIN=./dsd_inspector ./dsd_tree_to_html.sh "/media/.../SACD-R ISO/"
+  INCLUDE_DFF=1 BIN=./dsd_inspector ./dsd_tree_to_html.sh "/media/.../dsf_files/"
   ```
 
 - **`[OUTROOT]` argument** — choose a different central output folder:
   ```bash
-  BIN=./dsd_inspector ./dsd_tree_to_html.sh "/media/.../SACD-R ISO/" "/tmp/my_dsd_out"
+  BIN=./dsd_inspector ./dsd_tree_to_html.sh "/media/.../dsf_files/" "/tmp/my_dsd_out"
   ```
 
 ---
