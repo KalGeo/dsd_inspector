@@ -10,6 +10,9 @@ This repository contains:
 <p align="center">
   <img src="README.png" alt="dsd_tree_to_html.sh output" >
 </p>
+<p align="center">
+  <img src="README2.png" alt="dsd_tree_to_html.sh output" >
+</p>
 
 ---
 
