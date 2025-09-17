@@ -49,6 +49,9 @@ BIN=./dsd_inspector ./dsd_tree_to_html.sh "<ROOT>" [OUTROOT]
 BIN=./dsd_inspector ./dsd_tree_to_html.sh "/media/dsf_files/"
 ```
 ```bash
+BIN=build/./dsd_inspector ./dsd_tree_to_html.sh "/media/dsf_files/" "./dsd_inspecor_output"
+```
+```bash
 BIN=folder_of_dsd_inspector/./dsd_inspector ./dsd_tree_to_html.sh "/media/dsf_files/"
 ```
 
