@@ -18,7 +18,7 @@ This repository contains:
 
 ## Requirements
 
-- Linux / macOS shell with: `bash`, `find`, `sort`, `grep`, `sed`, `head`, `realpath` (optional).
+- Linux shell with: `bash`, `find`, `sort`, `grep`, `sed`, `head`, `realpath` (optional).
 - `dsd_inspector` binary in your project (or built locally).
 - Libraries used by `dsd_inspector` (when building yourself): FFmpeg (`libavformat`, `libavcodec`, `libavutil`, `libswresample`), FFTW3, zlib.
 
