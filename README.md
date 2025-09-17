@@ -77,7 +77,6 @@ Open the generated summary page:
   - Links to `report.txt`, `spectrogram.png`, `spectrum_avg.png`
 
 ## Notes:
-- FFmpeg handles DSF/DFF/FLAC/WAV/etc. For DSD it decodes via dsd2pcm to float.
 - Target sample-rate is 176400 Hz by default (good match for DSD64 multiples). Adjust with --sr.
 - Heuristics are conservative; edge cases (heavy EQ, strong HF filters) may be "Inconclusive".
 
